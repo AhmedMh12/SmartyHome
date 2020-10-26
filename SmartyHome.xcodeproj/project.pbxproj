@@ -3,18 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3668FFB18D00AB8E46C462 /* Pods_SmartyHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4429AF70E380833A5F00552 /* Pods_SmartyHome.framework */; };
 		459E637C2545F48200737DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E637B2545F48200737DFF /* AppDelegate.swift */; };
-		459E637E2545F48200737DFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E637D2545F48200737DFF /* SceneDelegate.swift */; };
-		459E63802545F48200737DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E637F2545F48200737DFF /* ViewController.swift */; };
 		459E63832545F48200737DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459E63812545F48200737DFF /* Main.storyboard */; };
 		459E63852545F48500737DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459E63842545F48500737DFF /* Assets.xcassets */; };
 		459E63882545F48500737DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459E63862545F48500737DFF /* LaunchScreen.storyboard */; };
-		459E63932545F48600737DFF /* SmartyHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63922545F48600737DFF /* SmartyHomeTests.swift */; };
+		459E63932545F48600737DFF /* RoomPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63922545F48600737DFF /* RoomPresenterTests.swift */; };
 		459E639E2545F48600737DFF /* SmartyHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E639D2545F48600737DFF /* SmartyHomeUITests.swift */; };
+		459E63B22545F57400737DFF /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63B12545F57400737DFF /* Extentions.swift */; };
+		459E63B82545F59800737DFF /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63B72545F59800737DFF /* Room.swift */; };
+		459E63BD2545F63100737DFF /* RoomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63BC2545F63100737DFF /* RoomService.swift */; };
+		459E63C22545F78F00737DFF /* RoomPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63C12545F78F00737DFF /* RoomPresenter.swift */; };
+		459E63C72545F96D00737DFF /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63C62545F96D00737DFF /* RoomsViewController.swift */; };
+		459E63C82545F96D00737DFF /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63C62545F96D00737DFF /* RoomsViewController.swift */; };
+		459E63C92545F96D00737DFF /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63C62545F96D00737DFF /* RoomsViewController.swift */; };
+		459E63D02545FA9C00737DFF /* RoomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63CE2545FA9C00737DFF /* RoomViewCell.swift */; };
+		459E63D12545FA9C00737DFF /* RoomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63CE2545FA9C00737DFF /* RoomViewCell.swift */; };
+		459E63D22545FA9C00737DFF /* RoomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63CE2545FA9C00737DFF /* RoomViewCell.swift */; };
+		459E63D32545FA9C00737DFF /* RoomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459E63CF2545FA9C00737DFF /* RoomViewCell.xib */; };
+		459E63D42545FA9C00737DFF /* RoomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459E63CF2545FA9C00737DFF /* RoomViewCell.xib */; };
+		459E63D52545FA9C00737DFF /* RoomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459E63CF2545FA9C00737DFF /* RoomViewCell.xib */; };
+		459E63DD2545FDD700737DFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63DC2545FDD700737DFF /* LoginViewController.swift */; };
+		459E63DE2545FDD700737DFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63DC2545FDD700737DFF /* LoginViewController.swift */; };
+		459E63DF2545FDD700737DFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63DC2545FDD700737DFF /* LoginViewController.swift */; };
+		459E63E42545FDF400737DFF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63E32545FDF400737DFF /* LoginService.swift */; };
+		459E63E52545FDF400737DFF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63E32545FDF400737DFF /* LoginService.swift */; };
+		459E63E62545FDF400737DFF /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63E32545FDF400737DFF /* LoginService.swift */; };
+		459E63EB2545FE0A00737DFF /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63EA2545FE0A00737DFF /* LoginPresenter.swift */; };
+		459E63EC2545FE0A00737DFF /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63EA2545FE0A00737DFF /* LoginPresenter.swift */; };
+		459E63ED2545FE0A00737DFF /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63EA2545FE0A00737DFF /* LoginPresenter.swift */; };
+		459E640D254629F000737DFF /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 459E640C254629F000737DFF /* home.svg */; };
+		459E640E254629F000737DFF /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 459E640C254629F000737DFF /* home.svg */; };
+		459E640F254629F000737DFF /* home.svg in Resources */ = {isa = PBXBuildFile; fileRef = 459E640C254629F000737DFF /* home.svg */; };
+		45F014F02546E48500CFB095 /* RoomPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63C12545F78F00737DFF /* RoomPresenter.swift */; };
+		45F014F42546E48500CFB095 /* RoomPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63C12545F78F00737DFF /* RoomPresenter.swift */; };
+		45F014F82546E48900CFB095 /* RoomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63BC2545F63100737DFF /* RoomService.swift */; };
+		45F014FC2546E48A00CFB095 /* RoomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63BC2545F63100737DFF /* RoomService.swift */; };
+		45F014FD2546E49200CFB095 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63B12545F57400737DFF /* Extentions.swift */; };
+		45F015012546E49300CFB095 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63B12545F57400737DFF /* Extentions.swift */; };
+		45F015052546E4C300CFB095 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63B72545F59800737DFF /* Room.swift */; };
+		45F015092546E4C400CFB095 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E63B72545F59800737DFF /* Room.swift */; };
+		45F0150D2546E4D000CFB095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459E63842545F48500737DFF /* Assets.xcassets */; };
+		45F015112546E4D000CFB095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 459E63842545F48500737DFF /* Assets.xcassets */; };
+		45F015152546E4E000CFB095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E637B2545F48200737DFF /* AppDelegate.swift */; };
+		45F015192546E4E100CFB095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459E637B2545F48200737DFF /* AppDelegate.swift */; };
+		45F015202546E4EA00CFB095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459E63812545F48200737DFF /* Main.storyboard */; };
+		45F015242546E4EB00CFB095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459E63812545F48200737DFF /* Main.storyboard */; };
+		45F015282546E4ED00CFB095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459E63862545F48500737DFF /* LaunchScreen.storyboard */; };
+		45F0152C2546E4EE00CFB095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 459E63862545F48500737DFF /* LaunchScreen.storyboard */; };
+		5E88806CACBAB185498EA9C0 /* Pods_SmartyHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98126CD9C1E05872FB7E721D /* Pods_SmartyHomeTests.framework */; };
+		7E51B81E794BC68F0B6DF0EE /* Pods_SmartyHome_SmartyHomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88595BD4AFA71B908ABABDBF /* Pods_SmartyHome_SmartyHomeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +77,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F48CA1FBAFF30E143393213 /* Pods-SmartyHome-SmartyHomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartyHome-SmartyHomeUITests.release.xcconfig"; path = "Target Support Files/Pods-SmartyHome-SmartyHomeUITests/Pods-SmartyHome-SmartyHomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42FD5A87A0FEF4BD5CADCCC0 /* Pods-SmartyHome-SmartyHomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartyHome-SmartyHomeUITests.debug.xcconfig"; path = "Target Support Files/Pods-SmartyHome-SmartyHomeUITests/Pods-SmartyHome-SmartyHomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		459E63782545F48200737DFF /* SmartyHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartyHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		459E637B2545F48200737DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		459E637D2545F48200737DFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		459E637F2545F48200737DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		459E63822545F48200737DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		459E63842545F48500737DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		459E63872545F48500737DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		459E63892545F48500737DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		459E638E2545F48600737DFF /* SmartyHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartyHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		459E63922545F48600737DFF /* SmartyHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartyHomeTests.swift; sourceTree = "<group>"; };
+		459E63922545F48600737DFF /* RoomPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomPresenterTests.swift; sourceTree = "<group>"; };
 		459E63942545F48600737DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		459E63992545F48600737DFF /* SmartyHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartyHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		459E639D2545F48600737DFF /* SmartyHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartyHomeUITests.swift; sourceTree = "<group>"; };
 		459E639F2545F48600737DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459E63B12545F57400737DFF /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		459E63B72545F59800737DFF /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		459E63BC2545F63100737DFF /* RoomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomService.swift; sourceTree = "<group>"; };
+		459E63C12545F78F00737DFF /* RoomPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomPresenter.swift; sourceTree = "<group>"; };
+		459E63C62545F96D00737DFF /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		459E63CE2545FA9C00737DFF /* RoomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewCell.swift; sourceTree = "<group>"; };
+		459E63CF2545FA9C00737DFF /* RoomViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomViewCell.xib; sourceTree = "<group>"; };
+		459E63DC2545FDD700737DFF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		459E63E32545FDF400737DFF /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		459E63EA2545FE0A00737DFF /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		459E640C254629F000737DFF /* home.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = home.svg; sourceTree = "<group>"; };
+		5EA024CBA44B67F44AB86208 /* Pods-SmartyHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartyHome.debug.xcconfig"; path = "Target Support Files/Pods-SmartyHome/Pods-SmartyHome.debug.xcconfig"; sourceTree = "<group>"; };
+		5F2A5678E40BEA7E151DE693 /* Pods-SmartyHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartyHomeTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartyHomeTests/Pods-SmartyHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88595BD4AFA71B908ABABDBF /* Pods_SmartyHome_SmartyHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartyHome_SmartyHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3017ADB02A1FAEF3E9E98B /* Pods-SmartyHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartyHomeTests.release.xcconfig"; path = "Target Support Files/Pods-SmartyHomeTests/Pods-SmartyHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		98126CD9C1E05872FB7E721D /* Pods_SmartyHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartyHomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4429AF70E380833A5F00552 /* Pods_SmartyHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartyHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8796613363CFD9C3BB1288 /* Pods-SmartyHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartyHome.release.xcconfig"; path = "Target Support Files/Pods-SmartyHome/Pods-SmartyHome.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3668FFB18D00AB8E46C462 /* Pods_SmartyHome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E88806CACBAB185498EA9C0 /* Pods_SmartyHomeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E51B81E794BC68F0B6DF0EE /* Pods_SmartyHome_SmartyHomeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +146,8 @@
 				459E63912545F48600737DFF /* SmartyHomeTests */,
 				459E639C2545F48600737DFF /* SmartyHomeUITests */,
 				459E63792545F48200737DFF /* Products */,
+				DE8D223284DBE0123D997A97 /* Pods */,
+				5AA515FDB22ABE53483CD156 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +164,14 @@
 		459E637A2545F48200737DFF /* SmartyHome */ = {
 			isa = PBXGroup;
 			children = (
+				459E640B254629B600737DFF /* Resources */,
+				459E63CD2545FA5A00737DFF /* Cells */,
+				459E63B62545F58600737DFF /* Models */,
+				459E63B02545F55300737DFF /* Helpers */,
+				459E63AF2545F53B00737DFF /* Login */,
+				459E63AE2545F52D00737DFF /* Home */,
 				459E637B2545F48200737DFF /* AppDelegate.swift */,
-				459E637D2545F48200737DFF /* SceneDelegate.swift */,
-				459E637F2545F48200737DFF /* ViewController.swift */,
 				459E63812545F48200737DFF /* Main.storyboard */,
-				459E63842545F48500737DFF /* Assets.xcassets */,
 				459E63862545F48500737DFF /* LaunchScreen.storyboard */,
 				459E63892545F48500737DFF /* Info.plist */,
 			);
@@ -113,7 +181,7 @@
 		459E63912545F48600737DFF /* SmartyHomeTests */ = {
 			isa = PBXGroup;
 			children = (
-				459E63922545F48600737DFF /* SmartyHomeTests.swift */,
+				459E63922545F48600737DFF /* RoomPresenterTests.swift */,
 				459E63942545F48600737DFF /* Info.plist */,
 			);
 			path = SmartyHomeTests;
@@ -128,6 +196,83 @@
 			path = SmartyHomeUITests;
 			sourceTree = "<group>";
 		};
+		459E63AE2545F52D00737DFF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				459E63BC2545F63100737DFF /* RoomService.swift */,
+				459E63C12545F78F00737DFF /* RoomPresenter.swift */,
+				459E63C62545F96D00737DFF /* RoomsViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		459E63AF2545F53B00737DFF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				459E63E32545FDF400737DFF /* LoginService.swift */,
+				459E63EA2545FE0A00737DFF /* LoginPresenter.swift */,
+				459E63DC2545FDD700737DFF /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		459E63B02545F55300737DFF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				459E63B12545F57400737DFF /* Extentions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		459E63B62545F58600737DFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				459E63B72545F59800737DFF /* Room.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		459E63CD2545FA5A00737DFF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				459E63CE2545FA9C00737DFF /* RoomViewCell.swift */,
+				459E63CF2545FA9C00737DFF /* RoomViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		459E640B254629B600737DFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				459E640C254629F000737DFF /* home.svg */,
+				459E63842545F48500737DFF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5AA515FDB22ABE53483CD156 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4429AF70E380833A5F00552 /* Pods_SmartyHome.framework */,
+				88595BD4AFA71B908ABABDBF /* Pods_SmartyHome_SmartyHomeUITests.framework */,
+				98126CD9C1E05872FB7E721D /* Pods_SmartyHomeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8D223284DBE0123D997A97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EA024CBA44B67F44AB86208 /* Pods-SmartyHome.debug.xcconfig */,
+				DA8796613363CFD9C3BB1288 /* Pods-SmartyHome.release.xcconfig */,
+				42FD5A87A0FEF4BD5CADCCC0 /* Pods-SmartyHome-SmartyHomeUITests.debug.xcconfig */,
+				2F48CA1FBAFF30E143393213 /* Pods-SmartyHome-SmartyHomeUITests.release.xcconfig */,
+				5F2A5678E40BEA7E151DE693 /* Pods-SmartyHomeTests.debug.xcconfig */,
+				8A3017ADB02A1FAEF3E9E98B /* Pods-SmartyHomeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 459E63A22545F48600737DFF /* Build configuration list for PBXNativeTarget "SmartyHome" */;
 			buildPhases = (
+				676D322B79342828DA09548E /* [CP] Check Pods Manifest.lock */,
 				459E63742545F48200737DFF /* Sources */,
 				459E63752545F48200737DFF /* Frameworks */,
 				459E63762545F48200737DFF /* Resources */,
+				62117B2B03D16A50AB5555A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 459E63A52545F48600737DFF /* Build configuration list for PBXNativeTarget "SmartyHomeTests" */;
 			buildPhases = (
+				60CE60E6221A34D01594D2BE /* [CP] Check Pods Manifest.lock */,
 				459E638A2545F48600737DFF /* Sources */,
 				459E638B2545F48600737DFF /* Frameworks */,
 				459E638C2545F48600737DFF /* Resources */,
@@ -170,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 459E63A82545F48600737DFF /* Build configuration list for PBXNativeTarget "SmartyHomeUITests" */;
 			buildPhases = (
+				31137AF94E365A8FBD35F028 /* [CP] Check Pods Manifest.lock */,
 				459E63952545F48600737DFF /* Sources */,
 				459E63962545F48600737DFF /* Frameworks */,
 				459E63972545F48600737DFF /* Resources */,
+				5D96163B952ED8515E720169 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +382,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				459E63882545F48500737DFF /* LaunchScreen.storyboard in Resources */,
+				459E63D32545FA9C00737DFF /* RoomViewCell.xib in Resources */,
+				459E640D254629F000737DFF /* home.svg in Resources */,
 				459E63852545F48500737DFF /* Assets.xcassets in Resources */,
 				459E63832545F48200737DFF /* Main.storyboard in Resources */,
 			);
@@ -241,6 +393,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459E63D42545FA9C00737DFF /* RoomViewCell.xib in Resources */,
+				45F0150D2546E4D000CFB095 /* Assets.xcassets in Resources */,
+				459E640E254629F000737DFF /* home.svg in Resources */,
+				45F015282546E4ED00CFB095 /* LaunchScreen.storyboard in Resources */,
+				45F015202546E4EA00CFB095 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +405,134 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459E63D52545FA9C00737DFF /* RoomViewCell.xib in Resources */,
+				45F015112546E4D000CFB095 /* Assets.xcassets in Resources */,
+				459E640F254629F000737DFF /* home.svg in Resources */,
+				45F0152C2546E4EE00CFB095 /* LaunchScreen.storyboard in Resources */,
+				45F015242546E4EB00CFB095 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31137AF94E365A8FBD35F028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartyHome-SmartyHomeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D96163B952ED8515E720169 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartyHome-SmartyHomeUITests/Pods-SmartyHome-SmartyHomeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartyHome-SmartyHomeUITests/Pods-SmartyHome-SmartyHomeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartyHome-SmartyHomeUITests/Pods-SmartyHome-SmartyHomeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60CE60E6221A34D01594D2BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartyHomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62117B2B03D16A50AB5555A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartyHome/Pods-SmartyHome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartyHome/Pods-SmartyHome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartyHome/Pods-SmartyHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		676D322B79342828DA09548E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartyHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		459E63742545F48200737DFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459E63802545F48200737DFF /* ViewController.swift in Sources */,
+				459E63EB2545FE0A00737DFF /* LoginPresenter.swift in Sources */,
+				459E63BD2545F63100737DFF /* RoomService.swift in Sources */,
+				459E63B22545F57400737DFF /* Extentions.swift in Sources */,
+				459E63D02545FA9C00737DFF /* RoomViewCell.swift in Sources */,
+				459E63C72545F96D00737DFF /* RoomsViewController.swift in Sources */,
+				459E63C22545F78F00737DFF /* RoomPresenter.swift in Sources */,
+				459E63E42545FDF400737DFF /* LoginService.swift in Sources */,
 				459E637C2545F48200737DFF /* AppDelegate.swift in Sources */,
-				459E637E2545F48200737DFF /* SceneDelegate.swift in Sources */,
+				459E63DD2545FDD700737DFF /* LoginViewController.swift in Sources */,
+				459E63B82545F59800737DFF /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +540,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				459E63932545F48600737DFF /* SmartyHomeTests.swift in Sources */,
+				45F015152546E4E000CFB095 /* AppDelegate.swift in Sources */,
+				459E63EC2545FE0A00737DFF /* LoginPresenter.swift in Sources */,
+				459E63DE2545FDD700737DFF /* LoginViewController.swift in Sources */,
+				45F014F82546E48900CFB095 /* RoomService.swift in Sources */,
+				459E63932545F48600737DFF /* RoomPresenterTests.swift in Sources */,
+				45F015052546E4C300CFB095 /* Room.swift in Sources */,
+				45F014F02546E48500CFB095 /* RoomPresenter.swift in Sources */,
+				459E63E52545FDF400737DFF /* LoginService.swift in Sources */,
+				459E63C82545F96D00737DFF /* RoomsViewController.swift in Sources */,
+				459E63D12545FA9C00737DFF /* RoomViewCell.swift in Sources */,
+				45F014FD2546E49200CFB095 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +558,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F015192546E4E100CFB095 /* AppDelegate.swift in Sources */,
+				459E63ED2545FE0A00737DFF /* LoginPresenter.swift in Sources */,
+				459E63DF2545FDD700737DFF /* LoginViewController.swift in Sources */,
+				45F014FC2546E48A00CFB095 /* RoomService.swift in Sources */,
 				459E639E2545F48600737DFF /* SmartyHomeUITests.swift in Sources */,
+				45F015092546E4C400CFB095 /* Room.swift in Sources */,
+				45F014F42546E48500CFB095 /* RoomPresenter.swift in Sources */,
+				459E63E62545FDF400737DFF /* LoginService.swift in Sources */,
+				459E63C92545F96D00737DFF /* RoomsViewController.swift in Sources */,
+				459E63D22545FA9C00737DFF /* RoomViewCell.swift in Sources */,
+				45F015012546E49300CFB095 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +725,14 @@
 		};
 		459E63A32545F48600737DFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA024CBA44B67F44AB86208 /* Pods-SmartyHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4BY654BM;
 				INFOPLIST_FILE = SmartyHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,17 +740,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed-mh.SmartyHome";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		459E63A42545F48600737DFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA8796613363CFD9C3BB1288 /* Pods-SmartyHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4BY654BM;
 				INFOPLIST_FILE = SmartyHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,16 +761,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed-mh.SmartyHome";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		459E63A62545F48600737DFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2A5678E40BEA7E151DE693 /* Pods-SmartyHomeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4BY654BM;
 				INFOPLIST_FILE = SmartyHomeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,10 +790,12 @@
 		};
 		459E63A72545F48600737DFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3017ADB02A1FAEF3E9E98B /* Pods-SmartyHomeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4BY654BM;
 				INFOPLIST_FILE = SmartyHomeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,9 +813,11 @@
 		};
 		459E63A92545F48600737DFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FD5A87A0FEF4BD5CADCCC0 /* Pods-SmartyHome-SmartyHomeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4BY654BM;
 				INFOPLIST_FILE = SmartyHomeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -530,9 +834,11 @@
 		};
 		459E63AA2545F48600737DFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F48CA1FBAFF30E143393213 /* Pods-SmartyHome-SmartyHomeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4BY654BM;
 				INFOPLIST_FILE = SmartyHomeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
